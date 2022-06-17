@@ -1,0 +1,184 @@
+header {
+    font-size: 28px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+p {
+    font-size: 19px;
+}
+
+h2 {
+    font-size: smaller;
+    text-align: center;
+    border: solid;
+}
+
+h4 {
+    font-size: 22px;
+}
+
+li {
+    font-size: 18px;
+}
+
+#navbar {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(248, 240, 255);
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+#navbar a {
+    padding: 6px 6px 6px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #1d1815;
+    display: block;
+}
+
+#navbar a:hover {
+    color: #eb7b13;
+}
+
+.text-area {
+    margin-left: 200px;
+    /* Same as the width of the sidenav */
+}
+
+@media screen and (max-height: 450px) {
+    #navbar {
+        padding-top: 15px;
+    }
+
+    #navbar a {
+        font-size: 18px;
+    }
+}
+
+.psu {
+    width: 35%;
+}
+
+.cpu {
+    width: 35%;
+}
+
+.ram {
+    width: 35%;
+}
+
+.motherboard {
+    width: 15%;
+}
+
+.motherboard1 {
+    width: 15%;
+}
+
+#motherboard2 {
+    width: 35%;
+}
+
+.cpu-cooler {
+    width: 15%;
+}
+
+.cpu-cooler1 {
+    width: 35%;
+}
+
+.cpu-cooler2 {
+    width: 15%;
+}
+
+.graphic-card {
+    width: 35%;
+}
+
+.hd-ssd {
+    width: 15%;
+}
+.hd-ssd1 {
+    width: 15%;
+}
+
+a {
+    border-bottom: solid;
+}
+
+body {
+    background-color: rgb(243, 245, 247);
+}
+
+.motherboard {
+    transition: transform 0.50s ease;
+    cursor: zoom-in;
+}
+.motherboard:active {
+    -webkit-transform: scale(3);
+    transform: scale(3);
+    cursor: zoom-out;
+}
+
+.motherboard1 {
+    transition: transform 0.50s ease;
+    cursor: zoom-in;
+}
+
+.motherboard1:active {
+    -webkit-transform: scale(3);
+    transform: scale(3);
+    cursor: zoom-out;
+    margin-left: 150px;
+}
+
+.cpu-cooler {
+    transition: transform 0.50s ease;
+    cursor: zoom-in;
+}
+
+.cpu-cooler:active {
+    -webkit-transform: scale(3);
+    transform: scale(3);
+    cursor: zoom-out;
+}
+
+.cpu-cooler2 {
+    transition: transform 0.50s ease;
+    cursor: zoom-in;
+}
+
+.cpu-cooler2:active {
+    -webkit-transform: scale(3);
+    transform: scale(3);
+    cursor: zoom-out;
+    margin-left: 170px;
+}
+
+.hd-ssd {
+    transition: transform 0.50s ease;
+    cursor: zoom-in;
+}
+
+.hd-ssd:active {
+    -webkit-transform: scale(3);
+    transform: scale(3);
+    cursor: zoom-out;
+}
+
+.hd-ssd1 {
+    transition: transform 0.50s ease;
+    cursor: zoom-in;
+}
+
+.hd-ssd1:active {
+    -webkit-transform: scale(3);
+    transform: scale(3);
+    cursor: zoom-out;
+    margin-left: 170px;
+}
